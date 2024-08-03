@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<br>
+<center>
+<h1>Travel Service</h1>
+<h4>Hotel Booking | Air Tickets | Tourist Visa | Holiday Packages</h4>
+<h3 style="font-style: italic;">Available Hear</h3>
+</center>
+<br>
+<section class="section_container about_container about">
+  <div class="about__content">
+    <p>
+      Travel,
+      because traveling teaches to resist,
+      not to depend,
+      to accept others, not just for who they are
+      but also for what they can never be.
+      To know what we are capable of,
+      to feel part of a family
+      beyond borders,
+      beyond traditions and culture.
+      
+    </p>
+    <h4>
+      Travel,
+        otherwise you end up believing
+        that you are made only for a panorama
+        and instead inside you
+        there are wonderful landscapes
+        still to visit.
+    </h4>
+    <p>
+      Travel,
+        because if you don't travel then
+        your thoughts won’t be strengthened,
+        won’t get filled with ideas.
+        Your dreams will be born with fragile legs and then you end up believing in tv-shows, and in those who invent enemies
+        that fit perfectly with your nightmares
+        to make you live in terror.
+        
+    </p>
+  </div>
+  <div class="about__image">
+    <img src="{% static 'images/serv1.jpg' %}" alt="about" />
+  </div>
+</section>
+<!-- ======================2nd=============== -->
+ <br>
+<div class="Quick-video" style=" margin-top: 20px;" >
+  <div class="vd-content" style="display: flex;">
+      <div class="video">
+          <video style="height: 400px; margin-top: 5px; padding-right: 5px;"  controls >
+              <source src="{% static 'videos/service.mp4' %}" type="video/mp4">
+          </video>
+      </div>
+      <div class="q-content">
+          <h1  style="margin-top: 30px;">TRAVEL PARTNER</h1>
+          <h4>Your flexible</h4>
+          
+          <p style="margin-top: 40px;">- Travel Services means arranging or booking vacation or travel packages, travel reservations or accommodations, tickets for domestic or foreign travel by air, rail, ship, bus, or other medium of transportation, or hotel or other lodging accommodations</p>
+      </div>
+  </div>
+  </div>
+
+  
+{% endblock %}
+
+

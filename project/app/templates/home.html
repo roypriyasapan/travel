@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="card bg-dark text-white">
+  <!-- <img src="" class="card-img" alt="..."> -->
+  <div class="video">
+    <center>
+      <h1></h1>
+      <video width="100%" height="600%" controls autoplay>
+        <source src="{% static 'videos/v3.mp4' %}" type="video/mp4">
+      </video>
+    </center>
+  </div>
+  <center>
+  <div class="card-vio-overlay">
+    <h1>ADVENTURE IS WORTHWHILE</h1>
+    <p class="card-text">Discover New Places With Us, Adventure Awaits</p>
+    <h5 class="card-title">Dicover More</h5>
+    <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+  </div>
+</center>
+</div>
+<br>
+
+   
+<!-- =========================2nd============ -->
+<center>
+<h1 class="events">come with us we will show you the world</h1>
+</center>
+ <br>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/home2.jpg' %}" class="d-block w-100" height="600px" alt="PRIYA">
+         <!-- <div class="video">
+  <center>
+    <h1></h1>
+    <video width="1100" height="500" controls>
+      <source src="{% static 'videos/v2.mp4' %}" type="video/mp4">
+    </video>
+  </center>
+</div> -->
+          <center>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Breathe that crisp mountain air.</h5>
+          <p>"Every mountain top is within reach if you just keep climbing!!!..."</p>
+        </div>  
+          </center>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/home01.jpg' %}" class="d-block w-100" height="600px" alt="PRIYA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Forest adventures await</h5>
+          <p>“The best way to experience nature is on foot.” – Muir</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/home3.jpg' %}" class="d-block w-100" height="600px" alt="PRIYA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dancing with the river's flow.</h5>
+          <p> The river always leads to new discoveries and endless adventures!!!...</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- =================2nd row=========== -->
+    <!-- <section class="book" id="book">
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+    </h1>
+    <div class="row">
+      <div class="image">
+        <img src="{% static 'images/cute.jpg' %}" alt="PRIYA">
+      </div>
+      <form action="">
+        <div class="inputBox">
+          <h3>where to</h3>
+          <input type="text" placeholder="place name">
+        </div>
+        <div class="inputBox">
+          <h3>how many</h3>
+          <input type="number" placeholder="number of member">
+        </div>
+        <div class="inputBox">
+          <h3>arrivals</h3>
+          <input type="data">
+        </div>
+        <div class="inputbox">
+          <h3>living</h3>
+          <input type="data">
+        </div>
+        <input type="submit" class="btn" value="book now">
+      </form>
+    </div>
+  </section> -->
+  <!-- =========3rd row=============== -->
+  <h1 class="heading">
+    <span>o</span>
+    <span>n</span>
+    <span>e</span>
+    <span class="space"></span>
+    <span>t</span>
+    <span>e</span>
+    <span>a</span>
+    <span>m</span>
+  </h1>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/sec1.jpg' %}" class="card-img-top" alt="PRIYA">
+        <div class="card-body">
+          <h5 class="card-title">Erika Larsen</h5>
+          <p class="card-text">Erika Larsen is a transdisciplinary storyteller and photographer who is known for her intimate essays about cultures that maintain strong connections with nature. She immerses readers in cultures through her visual storytelling. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/sec2.jpg' %}" class="card-img-top" alt="PRIYA">
+        <div class="card-body">
+          <h5 class="card-title">Paul Nicklen</h5>
+          <p class="card-text">Paul Nicklen, Nord Austlandet, 2013. Whenever I travel to the polar regions I am always secretly hopeful that the dire predictions and forecasts scientists ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/sec3.jpg' %}" class="card-img-top" alt="PRIYA">
+        <div class="card-body">
+          <h5 class="card-title">Krystle Wright</h5>
+          <p class="card-text">Krystle Wright, is at a critical moment in her life and her career. After over a decade of traveling the world and shooting some of the most awe-inspiring ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/sec4.jpg' %}" class="card-img-top" alt="PRIYA">
+        <div class="card-body">
+          <h5 class="card-title">Brian Skerry*</h5>
+          <p class="card-text">Brian Skerry* Through his films and photography, Skerry has increased awareness of the world's marine ecosystems and the value of conserving them. Jared ...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
